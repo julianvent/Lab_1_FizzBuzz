@@ -15,14 +15,15 @@ class ConsoleBasedFizzBuzz implements FizzBuzz {
             }
         }
     }
-    public static boolean isDividedByThree(int num) {
+
+    private static boolean isDividedByThree(int num) {
         if (num % 3 == 0) {
             return true;
         }
         return false;
     }
 
-    public static boolean isDividedByFive(int num) {
+    private static boolean isDividedByFive(int num) {
         if (num % 5 == 0) {
             return true;
         }
